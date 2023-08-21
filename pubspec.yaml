@@ -20,9 +20,9 @@ dependencies:
   flutter_riverpod: ^2.3.7 #TODO:状態管理
   webview_flutter: ^4.2.2 #TODO:webページを開く
   carousel_slider: ^4.2.1 #TODO:ホーム画面のカルーセル表示
-  logger: ^2.0.1 #TODO:ロギングの設定を行う
   flutter_secure_storage: ^8.0.0 #TODO:（個人情報）情報を内部に保存
   shared_preferences: ^2.2.0 #TODO:情報を内部に保存
+  json_annotation: ^4.8.1
 
 dev_dependencies:
   flutter_test:
@@ -33,6 +33,7 @@ dev_dependencies:
   retrofit_generator: ^7.0.8
   json_serializable: ^6.7.1
   flutter_native_splash: ^2.3.2 #TODO:スプラッシュ画面の構築
+  logger: ^2.0.1
 
 flutter_native_splash:
   android_gravity: center
